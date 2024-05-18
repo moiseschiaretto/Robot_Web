@@ -59,11 +59,16 @@ pip install robotframework-requests
 pip list
 
 **Dica é criar o arquivo "requeriments.txt"**
-Informar neste arquivo todas as bibliotecas a serem instaladas e as versões, exemplo
+Informar neste arquivo todas as bibliotecas a serem instaladas e as versões, exemplos:
+
 robotframework>=7.0
+
 robotframework-pythonlibcore>=4.4.1
+
 robotframework-requests>=0.9.7
+
 robotframework-seleniumlibrary>=6.3.0
+
 lxml>=5.2.2
 
 **Instalar também a biblioteca para trabalhar com "XPath"**
@@ -84,13 +89,17 @@ pip install lxml
 **Baixar os drivers dos browsers "Google Chrome" e do "Mozilla Firefox"**
 
 **1. Browser "Google Chrome"**
+
 https://developer.chrome.com/docs/chromedriver/downloads?hl=pt-br
+
 https://googlechromelabs.github.io/chrome-for-testing/
 
 **2. Browser "Mozilla Firefox"**
+
 https://github.com/mozilla/geckodriver/releases
 
 **Consultas sobre as Library ou Keyword do Projeto Robot_Web**
+
 https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 
 **Executar todo a suite de testes**
