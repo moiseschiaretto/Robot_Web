@@ -196,7 +196,7 @@ Caso de Teste 01 - Acesso ao menu Eletrônicos
 
 ```
 
-## Arquivo #tests.robot
+## Arquivo "tests_bdd.robot"
 
 - Contém o BDD dos Cenários de Testes.
 
@@ -262,19 +262,25 @@ C:\Users\Moises\PycharmProjects\Robot_Web\Robot_Web\log.html
 
 - Ou localizar e abrir o **arquivo log.html**
 
+
 ![05_Tests_Log](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/336aada4-2464-48d1-9ac3-c81dffc28fb1)
+
 
 
 ![06_Tests_Log_CT01](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/4f6ae483-8962-4cc6-b6eb-d33e6ba1749e)
 
 
+
 ![07_Tests_Log_CT01](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/94e2bf4d-3f6b-49f6-98ea-2ddc620322f4)
+
 
 
 ![08_Tests_Log_CT02](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/2dc9323a-243c-4da5-af22-9302b3f20f39)
 
 
+
 ![09_Tests_Report](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/fd8aa7c9-2ece-4743-8fdb-e4ae18dcb5f1)
+
 
 
 ![09_Tests_Report_Statistics_Details](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/70a238ea-21e0-40fc-83c6-1c8f0e3b8dab)
