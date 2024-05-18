@@ -201,12 +201,16 @@ Caso de Teste 01 - Acesso ao menu Eletrônicos
 
 ## Executar os testes "tests.robot"
 
-**1. Executar todo a suite de testes**
+**1. Executar toda a suite de testes, digitar o comando abaixo no terminal**
+
 robot tests.robot
 
-**2. Executar somente um cenário de testes**
+**2. Executar somente um cenário de testes, digitar o comando abaixo no terminal**
+
 robot -t "Caso de Teste 01 - Acesso ao menu Eletrônicos" tests.robot
+
 robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
+
 
 ![04_Testes_Pass](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/e3fdd21d-579b-436e-a6e5-af5e0b9dfefb)
 
