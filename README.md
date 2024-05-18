@@ -20,42 +20,42 @@
 
 
 **1. Pré-requisitos**
-1. IDE VSCode ou IDE PyCharm instaladas
-2. Instalar o Python
+1.1. IDE VSCode ou IDE PyCharm instaladas
+1.2. Instalar o Python
 https://www.python.org/downloads/
 
 
 **2. Instalação do Robot FrameWork**
-1. Site: https://robotframework.org
-2. Opção: GET STARTED
-3. Opção: Install
-4. Digitar no Terminal da IDE PyCharm / VSCode
+2.1. Site: https://robotframework.org
+2.2. Opção: GET STARTED
+2.3. Opção: Install
+2.4. Digitar no Terminal da IDE PyCharm / VSCode
 pip install robotframework
-5. Digitar no Terminal da IDE PyCharm / VSCode para atualização
+2.5. Digitar no Terminal da IDE PyCharm / VSCode para atualização
 pip install -U robotframework
-6. Digitar no Terminal da IDE PyCharm / VSCode
+2.6. Digitar no Terminal da IDE PyCharm / VSCode
 robot --version
 
 **3. Instalação da Library para Web Testing - SeleniumLibrary**
-1. Site: https://robotframework.org
-2. Opção: RESOURCES
-3. Opção: LIBRARIES
-4. Opção: SeleniumLibrary
-5. No "Github" rolar abaixo até encontrar "SeleniumLibrary" e "Installation"
-6. Digitar no Terminal da IDE PyCharm / VSCode
+3.1. Site: https://robotframework.org
+3.2. Opção: RESOURCES
+3.3. Opção: LIBRARIES
+3.4. Opção: SeleniumLibrary
+3.5. No "Github" rolar abaixo até encontrar "SeleniumLibrary" e "Installation"
+3.6. Digitar no Terminal da IDE PyCharm / VSCode
 pip install -U robotframework-seleniumlibrary
 
 
 **4. Instalação da Library para Web Testing - RequestsLibrary**
-1. Site: https://robotframework.org
-2. Opção: RESOURCES
-3. Opção: LIBRARIES
-4. Opção: HTTP RequestsLibrary (Python)
-5. Digitar no Terminal da IDE PyCharm / VSCode
-pip install robotframework-requests
+4.1. Site: https://robotframework.org
+4.2. Opção: RESOURCES
+4.3. Opção: LIBRARIES
+4.4. Opção: HTTP RequestsLibrary (Python)
+4.5. Digitar no Terminal da IDE PyCharm / VSCode
+4.pip install robotframework-requests
 
 **5. Verificar as bibliotecas instaladas na máquina**
-1. Digitar no Terminal da IDE PyCharm / VSCode
+5.1. Digitar no Terminal da IDE PyCharm / VSCode
 pip list
 
 **Dica é criar o arquivo "requeriments.txt"**
@@ -72,17 +72,29 @@ robotframework-seleniumlibrary>=6.3.0
 lxml>=5.2.2
 
 **6. Instalar também a biblioteca para trabalhar com "XPath"**
-1. Digitar no Terminal da IDE PyCharm / VSCode
+6.1. Digitar no Terminal da IDE PyCharm / VSCode
 pip install lxml
 
 
 **7. Instalar o Plugin Robot Framework "IntelliLang"**
-1. Instalar o Plugin "IntelliLang" na IDE PyCharm
-2. Acessar o botão "Engrenagem" (canto superior direito) e a opção "Settings" na IDE PyCharm
-3. Clicar em "Plugins"
-4. Desmarcar o Plugin "IntelliLang" para habilitar = "Enable"
-5. Botão "OK"
-6. Reiniciar (reset) a IDE PyCharm.
+7.1. Instalar o Plugin "IntelliLang" na IDE PyCharm
+7.2. Acessar o botão "Engrenagem" (canto superior direito) e a opção "Settings" na IDE PyCharm
+
+![00_Botao_Configuracoes](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/19825b0e-d869-4be3-9284-d81c05ab5c91)
+
+7.3. Clicar em "Plugins"
+7.4. Desmarcar o Plugin "IntelliLang" para habilitar = "Enable"
+
+![01_Configuracoes_Habilitar_Plugin_IntelliLang](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/58fe1f1c-78f6-4c45-9395-16f5bde4999f)
+
+7.5. Clicar em "Plugins"
+7.6. Desmarcar o Plugin "Gherkin = "Enable"
+
+![02_Configuracoes_Habilitar_Plugin_Gherkin](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/1ad84f95-a3e8-4b17-9167-d86406a7799a)
+
+
+7.7. Botão "OK"
+7.8. Reiniciar (reset) a IDE PyCharm.
 
 **8. Instalar no navegador (Chrome ou Firefox) a extensão TruePath**
 - Esta extensão é utilizada para localizar o **"XPath"** dos elementos da tela.
