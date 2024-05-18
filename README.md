@@ -19,13 +19,13 @@
 ## Configurações Passo a Passo de um Projeto Robot Framework
 
 
-**Pré-requisitos**
+**1. Pré-requisitos**
 1. IDE VSCode ou IDE PyCharm instaladas
 2. Instalar o Python
 https://www.python.org/downloads/
 
 
-**Instalação do Robot FrameWork**
+**2. Instalação do Robot FrameWork**
 1. Site: https://robotframework.org
 2. Opção: GET STARTED
 3. Opção: Install
@@ -36,7 +36,7 @@ pip install -U robotframework
 6. Digitar no Terminal da IDE PyCharm / VSCode
 robot --version
 
-**Instalação da Library para Web Testing - SeleniumLibrary**
+**3. Instalação da Library para Web Testing - SeleniumLibrary**
 1. Site: https://robotframework.org
 2. Opção: RESOURCES
 3. Opção: LIBRARIES
@@ -46,7 +46,7 @@ robot --version
 pip install -U robotframework-seleniumlibrary
 
 
-**Instalação da Library para Web Testing - RequestsLibrary**
+**4. Instalação da Library para Web Testing - RequestsLibrary**
 1. Site: https://robotframework.org
 2. Opção: RESOURCES
 3. Opção: LIBRARIES
@@ -54,7 +54,7 @@ pip install -U robotframework-seleniumlibrary
 5. Digitar no Terminal da IDE PyCharm / VSCode
 pip install robotframework-requests
 
-**Verificar as bibliotecas instaladas na máquina**
+**5. Verificar as bibliotecas instaladas na máquina**
 1. Digitar no Terminal da IDE PyCharm / VSCode
 pip list
 
@@ -71,11 +71,12 @@ robotframework-seleniumlibrary>=6.3.0
 
 lxml>=5.2.2
 
-**Instalar também a biblioteca para trabalhar com "XPath"**
+**6. Instalar também a biblioteca para trabalhar com "XPath"**
 1. Digitar no Terminal da IDE PyCharm / VSCode
 pip install lxml
 
-**Instalar o Plugin Robot Framework "IntelliLang"**
+
+**7. Instalar o Plugin Robot Framework "IntelliLang"**
 1. Instalar o Plugin "IntelliLang" na IDE PyCharm
 2. Acessar o botão "Engrenagem" (canto superior direito) e a opção "Settings" na IDE PyCharm
 3. Clicar em "Plugins"
@@ -83,29 +84,30 @@ pip install lxml
 5. Botão "OK"
 6. Reiniciar (reset) a IDE PyCharm.
 
-**Instalar no navegador (Chrome ou Firefox) a extensão TruePath**
-- Esta extensão é utilizada para localizar o "XPath" dos elementos da tela.
+**8. Instalar no navegador (Chrome ou Firefox) a extensão TruePath**
+- Esta extensão é utilizada para localizar o **"XPath"** dos elementos da tela.
 
-**Baixar os drivers dos browsers "Google Chrome" e do "Mozilla Firefox"**
 
-**1. Browser "Google Chrome"**
+**9. Baixar os drivers dos browsers "Google Chrome" e do "Mozilla Firefox"**
+
+**9.1. Browser "Google Chrome"**
 
 https://developer.chrome.com/docs/chromedriver/downloads?hl=pt-br
 
 https://googlechromelabs.github.io/chrome-for-testing/
 
-**2. Browser "Mozilla Firefox"**
+**9.2. Browser "Mozilla Firefox"**
 
 https://github.com/mozilla/geckodriver/releases
 
-**Consultas sobre as Library ou Keyword do Projeto Robot_Web**
+**10. Consultas sobre as Library ou Keyword do Projeto Robot_Web**
 
 https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 
-**Executar todo a suite de testes**
+**11. Executar todo a suite de testes**
 robot tests.robot
 
-**Executar somente um cenário de testes**
+**12. Executar somente um cenário de testes**
 robot -t "Caso de Teste 01 - Acesso ao menu Eletrônicos" tests.robot
 robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
