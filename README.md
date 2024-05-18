@@ -130,7 +130,7 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
     - Caso de Teste 01 - Acesso ao menu Eletrônicos
     - Caso de Teste 02 - Pesquisa de um Produto
 
-´´´
+```
 
 *** Settings ***
 Documentation  Essa suíte testa o site da Amazon.com.br
@@ -158,13 +158,13 @@ Caso de Teste 01 - Acesso ao menu Eletrônicos
     Clicar no botão de pesquisa
     Verificar o resultado da pesquisa se está listando o produto "Console Xbox Series S"
 
-´´´
+```
 
 ## Arquivo #tests.robot
 
 - Contém o BDD dos Cenários de Testes.
 
-´´´
+```
 
 *** Settings ***
 Documentation  Essa suíte testa o site da Amazon.com.br
@@ -192,7 +192,7 @@ Caso de Teste 01 - Acesso ao menu Eletrônicos
     E um produto da linha "Xbox Series S" deve ser mostrado na página
 
 
-´´´
+```
 
 ## Arquivo "url_resources.robot"
 
@@ -215,6 +215,12 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 ## Log dos Testes Executados - Report
 
 - Relatório dos resultados dos testes executados, inclusive com estatística dos resultados e evidências de telas.
+
+- Informar no navegadoro o caminho do **arquivo de log**, exemplo:
+
+C:\Users\Moises\PycharmProjects\Robot_Web\Robot_Web\log.html
+
+- Ou localizar e abrir o **arquivo log.html**
 
 ![05_Tests_Log](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/336aada4-2464-48d1-9ac3-c81dffc28fb1)
 
