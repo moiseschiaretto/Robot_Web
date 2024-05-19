@@ -34,10 +34,16 @@
 
 https://www.python.org/downloads/
 
+![04_Python](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/6061d1c0-e7a6-49d9-8100-b3dde59ad53a)
+
+
 
 **2. Instalação do Robot FrameWork**
 
 2.1. Site: https://robotframework.org
+
+![11_Logo_Robot_Frame_Work](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/6bb3a2f7-5c0c-4a52-976c-bb79cdeb06f8)
+
 
 2.2. Opção: GET STARTED
 
@@ -263,7 +269,7 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
 - Relatório dos resultados dos testes executados, inclusive com estatística dos resultados e evidências de telas.
 
-- Informar no navegadoro o caminho do **arquivo de log**, exemplo:
+- Informar no navegador ou o caminho do **arquivo de log**, exemplo:
 
 C:\Users\Moises\PycharmProjects\Robot_Web\Robot_Web\log.html
 
