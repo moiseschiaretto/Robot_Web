@@ -334,11 +334,13 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
 **3. Executar o arquivo tests.robot dentro da pasta /web/tests e gerando os arquivos de logs dentro da pasta /log.**
 
-  - **Conforme a **"Estrutura do Projeto Robot Web", especificad acima.**
+  - **Conforme a "Estrutura do Projeto Robot Web", especificada acima.**
 
   - Ver o comando e a imagem abaixo.
 
-robot -d ./log ./web/tests/tests.robot
+
+**robot -d ./log ./web/tests/tests.robot**
+
 
 
 ![04_Testes_Pass](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/f9cf3fc6-fc6e-47f6-8495-27e5cb4959c8)
