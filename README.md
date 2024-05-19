@@ -348,9 +348,9 @@ robot -d ./log ./web/tests/tests.robot
 
 - Informar no navegador ou o caminho do **arquivo de log**, exemplo:
 
-**C:\Users\Moises\PycharmProjects\Robot_Web\Robot_Web\log\log.html**
+  **C:\Users\Moises\PycharmProjects\Robot_Web\Robot_Web\log\log.html**
 
-- Ou localizar e abrir o **arquivo log.html**
+- Ou localizar e abrir o arquivo **log.html**
 
 
 ![05_Tests_Log](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/336aada4-2464-48d1-9ac3-c81dffc28fb1)
