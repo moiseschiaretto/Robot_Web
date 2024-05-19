@@ -20,7 +20,9 @@
 
 ## Estrutura do Projeto "Robot Web"
 
-![10_Estrutura_do_Projeto](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/1c1dca7f-53a0-4d93-bd18-030e9cd8d9eb)
+
+![10_Estrutura_do_Projeto](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/54263e3e-853c-4a99-a715-873d53422279)
+
 
 
 ## Configurações Passo a Passo de um Projeto Robot Framework
@@ -175,6 +177,10 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
 ## Arquivo "tests.robot"
 
+- Caminho do arquivo "tests.robot":
+
+  **/Robot_Web/web/tests**
+
 - Contém os cenários de testes a serem executados.
     - Caso de Teste 01 - Acesso ao menu Eletrônicos
     - Caso de Teste 02 - Pesquisa de um Produto
@@ -211,6 +217,10 @@ Caso de Teste 01 - Acesso ao menu Eletrônicos
 
 ## Arquivo "tests_bdd.robot"
 
+- Caminho do arquivo "tests_bdd.robot":
+
+  **/Robot_Web/web/tests**
+
 - Contém o BDD dos Cenários de Testes.
 
 ```
@@ -244,6 +254,10 @@ Caso de Teste 01 - Acesso ao menu Eletrônicos
 ```
 
 ## Arquivo "url_resources.robot"
+
+- Caminho do arquivo "url_resources.robot":
+
+  **/Robot_Web/web/tests**
 
 - Contém o código (keyword) do Robot Framework que será executado de acordo com o BDD, os cenários de testes.
 
@@ -303,6 +317,10 @@ Verificar o resultado da pesquisa se está listando o produto "${PRODUTO}"
 
 ## Executar os testes "tests.robot"
 
+- Caminho do arquivo "tests.robot":
+
+  **/Robot_Web/web/tests**
+
 **1. Executar toda a suite de testes, digitar o comando abaixo no terminal**
 
 robot tests.robot
@@ -314,7 +332,13 @@ robot -t "Caso de Teste 01 - Acesso ao menu Eletrônicos" tests.robot
 robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
 
-![04_Testes_Pass](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/e3fdd21d-579b-436e-a6e5-af5e0b9dfefb)
+**3. Executar o arquivo tests.robot dentro da pasta /web/tests e gerando o arquivos de logs dentro da pasta /log. [ver a imagem abaixo]**
+
+
+robot -d ./log ./web/tests/tests.robot
+
+
+![04_Testes_Pass](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/f9cf3fc6-fc6e-47f6-8495-27e5cb4959c8)
 
 
 
@@ -324,7 +348,7 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
 - Informar no navegador ou o caminho do **arquivo de log**, exemplo:
 
-C:\Users\Moises\PycharmProjects\Robot_Web\Robot_Web\log.html
+**C:\Users\Moises\PycharmProjects\Robot_Web\Robot_Web\log\log.html**
 
 - Ou localizar e abrir o **arquivo log.html**
 
