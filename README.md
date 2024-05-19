@@ -332,8 +332,11 @@ robot -t "Caso de Teste 01 - Acesso ao menu Eletrônicos" tests.robot
 robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
 
-**3. Executar o arquivo tests.robot dentro da pasta /web/tests e gerando os arquivos de logs dentro da pasta /log. [ver o comando e a imagem abaixo]**
+**3. Executar o arquivo tests.robot dentro da pasta /web/tests e gerando os arquivos de logs dentro da pasta /log.
 
+  - Conforme a **"Estrutura do Projeto Robot Web", especificad acima.
+
+  - Ver o comando e a imagem abaixo.**
 
 robot -d ./log ./web/tests/tests.robot
 
