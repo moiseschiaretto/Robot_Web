@@ -309,6 +309,10 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 ![12_LOG](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/166c0486-dfaa-4f14-a095-424c50ea5636)
 
 
+![12_TESTS](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/6d527388-4164-46c2-a86d-a106419aa7cf)
+
+
+
 ![04_Testes_Pass](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/f9cf3fc6-fc6e-47f6-8495-27e5cb4959c8)
 
 
@@ -348,10 +352,4 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
 
 ![09_Tests_Report_Statistics_Details](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/50fa61bd-319d-44b5-825d-593f05e48c63)
-
-
-
-
-
-
 
