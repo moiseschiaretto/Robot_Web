@@ -21,8 +21,7 @@
 ## Estrutura do Projeto "Robot Web"
 
 
-![10_Estrutura_do_Projeto](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/f451439f-abda-4a03-ac17-0620472eb35b)
-
+![10_Estrutura_do_Projeto](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/222a1bf1-157d-44a8-9b0e-6a71e91f69a4)
 
 
 
@@ -190,7 +189,7 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
 *** Settings ***
 Documentation  Essa suíte testa o site da Amazon.com.br
-Resource       url_resources.robot
+Resource       pesquisa.robot
 Test Setup     Abrir o navegador
 Test Teardown  Fechar o navegador
 
@@ -217,9 +216,9 @@ Caso de Teste 01 - Acesso ao menu Eletrônicos
 ```
 
 
-## Arquivo "url_resources.robot"
+## Arquivo "pesquisa.robot"
 
-- Caminho do arquivo "url_resources.robot":
+- Caminho do arquivo "pesquisa.robot":
 
   **/Robot_Web/web/tests**
 
