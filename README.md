@@ -21,7 +21,8 @@
 ## Estrutura do Projeto "Robot Web"
 
 
-![10_Estrutura_do_Projeto](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/54263e3e-853c-4a99-a715-873d53422279)
+![10_Estrutura_do_Projeto](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/f451439f-abda-4a03-ac17-0620472eb35b)
+
 
 
 
