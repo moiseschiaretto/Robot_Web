@@ -314,7 +314,8 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
 
 
-![04_Testes_Pass](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/f9cf3fc6-fc6e-47f6-8495-27e5cb4959c8)
+![04_Testes_Pass](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/82dd27a9-ceb0-49b9-af4a-d274d049c442)
+
 
 
 
