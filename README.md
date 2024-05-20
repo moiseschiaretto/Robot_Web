@@ -121,9 +121,9 @@ lxml>=5.2.2
 pip install lxml
 
 
-**7. Instalar o Plugin Robot Framework "IntelliLang"**
+**7. Instalar o Plugin "Robot Framework Language Server"**
 
-7.1. Instalar o Plugin "IntelliLang" na IDE PyCharm
+7.1. Instalar o Plugin "Robot Framework Language Server" na IDE PyCharm
 
 7.2. Acessar o botão "Engrenagem" (canto superior direito) e a opção "Settings" na IDE PyCharm
 
@@ -131,11 +131,18 @@ pip install lxml
 
 7.3. Clicar em "Plugins"
 
-****************
+7.4 Guia "Marketplace" pesquisar por "ROBOT"
 
-7.5. Botão "OK"
+7.5 Selecionar o Pluging **"Robot Framework Language Server"**
 
-7.6. Reiniciar (reset) a IDE PyCharm.
+7.6 Clicar em **"Install"**
+
+![02_Plugins_Robot_Framework](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/0c4f2077-3647-47ba-9092-860d51f9f171)
+
+7.7. Botão "OK"
+
+7.8. Reiniciar (reset) a IDE PyCharm.
+
 
 
 **8. Instalar no navegador (Chrome ou Firefox) a extensão TruePath**
@@ -165,6 +172,19 @@ robot tests.robot
 **12. Executar somente um cenário de testes**
 robot -t "Caso de Teste 01 - Acesso ao menu Eletrônicos" tests.robot
 robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
+
+
+
+## Dica para configurar o "Tipo de Arquivo" na IDE PyCharm
+
+**1.** Acessar o botão "Engrenagem" (canto superior direito) e a opção "Settings" na IDE PyCharm
+
+![00_Botao_Configuracoes](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/dc7d4090-326f-4fad-8dc5-540677e84a4d)
+
+**2.** Clicar em "Editor" >> "File Types" >> "Robot Framework" >> ""File name patterns".
+
+![01_EDITOR_FILE_TYPES](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/8caad38f-705d-4d99-badf-e47bf9482ef9)
+
 
 
 ## Arquivo "tests.robot"
