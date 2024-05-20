@@ -137,7 +137,8 @@ pip install lxml
 
 7.6 Clicar em **"Install"**
 
-![02_Plugins_Robot_Framework](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/0c4f2077-3647-47ba-9092-860d51f9f171)
+![02_Plugins_Robot_Framework](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/742dcb3a-73d8-4f05-8e2d-d6ac676d5e60)
+
 
 7.7. Botão "OK"
 
