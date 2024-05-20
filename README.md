@@ -135,16 +135,11 @@ pip install lxml
 
 ![01_Configuracoes_Habilitar_Plugin_IntelliLang](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/58fe1f1c-78f6-4c45-9395-16f5bde4999f)
 
-7.5. Clicar em "Plugins"
 
-7.6. Desmarcar o Plugin "Gherkin = "Enable"
+7.5. Botão "OK"
 
-![02_Configuracoes_Habilitar_Plugin_Gherkin](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/1ad84f95-a3e8-4b17-9167-d86406a7799a)
+7.6. Reiniciar (reset) a IDE PyCharm.
 
-
-7.7. Botão "OK"
-
-7.8. Reiniciar (reset) a IDE PyCharm.
 
 **8. Instalar no navegador (Chrome ou Firefox) a extensão TruePath**
 
