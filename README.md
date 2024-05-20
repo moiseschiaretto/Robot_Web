@@ -306,7 +306,8 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 **robot -d ./log ./web/tests/tests.robot**
 
 
-![12_LOG](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/166c0486-dfaa-4f14-a095-424c50ea5636)
+![12_LOG](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/4d219c67-3c16-45c9-853a-f04aac0f7901)
+
 
 
 ![12_TESTS](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/6d527388-4164-46c2-a86d-a106419aa7cf)
