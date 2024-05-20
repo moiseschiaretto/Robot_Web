@@ -295,7 +295,7 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
   - **Conforme a "Estrutura do Projeto Robot Web", especificada acima.**
 
-  - Ver o comando e a imagem abaixo.
+  - Ver o comando e as imagens abaixo.
 
 
 **robot -d ./log ./web/tests/tests.robot**
