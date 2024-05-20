@@ -306,6 +306,8 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 **robot -d ./log ./web/tests/tests.robot**
 
 
+![12_LOG](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/166c0486-dfaa-4f14-a095-424c50ea5636)
+
 
 ![04_Testes_Pass](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/f9cf3fc6-fc6e-47f6-8495-27e5cb4959c8)
 
@@ -320,6 +322,9 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
   **C:\Users\Moises\PycharmProjects\Robot_Web\Robot_Web\log\log.html**
 
 - Ou localizar e abrir o arquivo **log.html**
+
+
+![12_LOG](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/2dc5140c-5910-49a1-a68c-de52f94b265f)
 
 
 ![05_Tests_Log](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/456d081c-bd64-44f3-9af8-64b55e44f99a)
