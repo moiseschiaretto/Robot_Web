@@ -131,10 +131,7 @@ pip install lxml
 
 7.3. Clicar em "Plugins"
 
-7.4. Desmarcar o Plugin "IntelliLang" para habilitar = "Enable"
-
-![01_Configuracoes_Habilitar_Plugin_IntelliLang](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/58fe1f1c-78f6-4c45-9395-16f5bde4999f)
-
+****************
 
 7.5. Botão "OK"
 
