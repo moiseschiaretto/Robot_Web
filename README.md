@@ -53,15 +53,21 @@ https://www.python.org/downloads/
 
 2.4. Digitar no Terminal da IDE PyCharm / VSCode
 
+```
 pip install robotframework
+```
 
 2.5. Digitar no Terminal da IDE PyCharm / VSCode para atualização
 
+```
 pip install -U robotframework
 
+```
 2.6. Digitar no Terminal da IDE PyCharm / VSCode
 
+```
 robot --version
+```
 
 **3. Instalação da Library para Web Testing - SeleniumLibrary**
 
@@ -77,8 +83,9 @@ robot --version
 
 3.6. Digitar no Terminal da IDE PyCharm / VSCode
 
+```
 pip install -U robotframework-seleniumlibrary
-
+```
 
 **4. Instalação da Library para Web Testing - RequestsLibrary**
 
@@ -92,13 +99,19 @@ pip install -U robotframework-seleniumlibrary
 
 4.5. Digitar no Terminal da IDE PyCharm / VSCode
 
-4.pip install robotframework-requests
+```
+
+pip install robotframework-requests
+
+```
 
 **5. Verificar as bibliotecas instaladas na máquina**
 
 5.1. Digitar no Terminal da IDE PyCharm / VSCode
 
+```
 pip list
+```
 
 **Dica é criar o arquivo "requeriments.txt"**
 
@@ -114,11 +127,14 @@ robotframework-seleniumlibrary>=6.3.0
 
 lxml>=5.2.2
 
+
 **6. Instalar também a biblioteca para trabalhar com "XPath"**
 
 6.1. Digitar no Terminal da IDE PyCharm / VSCode
 
+```
 pip install lxml
+```
 
 
 **7. Instalar o Plugin "Robot Framework Language Server"**
@@ -163,18 +179,30 @@ https://googlechromelabs.github.io/chrome-for-testing/
 
 https://github.com/mozilla/geckodriver/releases
 
+
+
 **10. Consultas sobre as Library ou Keyword do Projeto Robot_Web**
 
 https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 
+
 **11. Executar todo a suite de testes**
+
+```
+
 robot tests.robot
 
+```
+
 **12. Executar somente um cenário de testes**
+
+```
+
 robot -t "Caso de Teste 01 - Acesso ao menu Eletrônicos" tests.robot
+
 robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
-
+```
 
 ## Dica para configurar o "Tipo de Arquivo" na IDE PyCharm
 
@@ -192,7 +220,7 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
 - Caminho do arquivo "tests.robot":
 
-  **/Robot_Web/web/tests**
+**/Robot_Web/web/tests**
 
 - Contém os cenários de testes a serem executados.
     - Caso de Teste 01 - Acesso ao menu Eletrônicos
@@ -300,13 +328,22 @@ Verificar o resultado da pesquisa se está listando o produto "${PRODUTO}"
 
 **1. Executar toda a suite de testes, digitar o comando abaixo no terminal**
 
+```
+
 robot tests.robot
 
+```
+
+
 **2. Executar somente um cenário de testes, digitar o comando abaixo no terminal**
+
+```
 
 robot -t "Caso de Teste 01 - Acesso ao menu Eletrônicos" tests.robot
 
 robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
+
+```
 
 
 **3. Executar o arquivo tests.robot dentro da pasta /web/tests e gerando os arquivos de logs dentro da pasta /log.**
@@ -315,8 +352,11 @@ robot -t "Caso de Teste 02 - Pesquisa de um Produto" tests.robot
 
   - Ver o comando e as imagens abaixo.
 
+```
 
-**robot -d ./log ./web/tests/tests.robot**
+robot -d ./log ./web/tests/tests.robot**
+
+```
 
 
 ![12_LOG](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/4d219c67-3c16-45c9-853a-f04aac0f7901)
