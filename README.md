@@ -4,7 +4,7 @@
   
 - Descrição das explicações de cada item da 'estrutura do projeto "Robot Web" desenvolvido' em Robot Framework com a IDE PyCharm.
 
-- Objetivo acessar um site Web, navegar pela página e realizar um pesquisa de um produto.
+- Objetivo acessar um site Web, navegar pela página e realizar uma pesquisa de um produto.
 
     - Caso de Teste 01 - Acesso ao menu Eletrônicos
  
@@ -117,6 +117,7 @@ pip list
 
 Informar neste arquivo todas as bibliotecas a serem instaladas e as versões, exemplos:
 
+```
 robotframework>=7.0
 
 robotframework-pythonlibcore>=4.4.1
@@ -127,6 +128,7 @@ robotframework-seleniumlibrary>=6.3.0
 
 lxml>=5.2.2
 
+```
 
 **6. Instalar também a biblioteca para trabalhar com "XPath"**
 
