@@ -4,7 +4,7 @@
   
 - Descrição das explicações de cada item da 'estrutura do projeto "Robot Web" desenvolvido' em Robot Framework com a IDE PyCharm.
 
-- Objetivo acessar um site Web, navegar pela página e realizar uma pesquisa de um produto.
+- O objetivo acessar um site Web, navegar pela página e realizar uma pesquisa de um produto.
 
     - Caso de Teste 01 - Acesso ao menu Eletrônicos
  
