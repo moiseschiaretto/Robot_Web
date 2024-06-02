@@ -16,9 +16,11 @@
   https://robotframework.org
 
 
-|Python       |IDE PyCharm		|Robot          |
-|-------------|---------------|---------------|
-| ![04_Python](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/81636264-f7a0-41cb-b9cd-b1df4e63bb6d) | <img width="194" alt="PyCharm" src="https://github.com/moiseschiaretto/Robot_Web/assets/84775466/a11b78e8-342a-4c17-b93c-dcb54c50e180"> | ![11_Logo_Robot_Frame_Work](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/51b2692f-da0c-45dc-846f-e25056759b29) |
+|Python       |IDE PyCharm		|Robot          |HTML / CSS / JS	  |XPATH  		|
+|-------------|---------------|---------------|-------------------|-----------|
+| ![04_Python](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/81636264-f7a0-41cb-b9cd-b1df4e63bb6d) | <img width="194" alt="PyCharm" src="https://github.com/moiseschiaretto/Robot_Web/assets/84775466/a11b78e8-342a-4c17-b93c-dcb54c50e180"> | ![11_Logo_Robot_Frame_Work](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/51b2692f-da0c-45dc-846f-e25056759b29) | <img width="236" alt="00_HTML_CSS_JS" src="https://github.com/moiseschiaretto/Robot_Web/assets/84775466/2e2eb878-6bce-4670-8c5c-609ed6bbea86"> | <img width="142" alt="00_XPATH" src="https://github.com/moiseschiaretto/Robot_Web/assets/84775466/529e73cb-6de8-4e8b-baf1-53aecb00d027"> |
+
+
 <br>
 
 ## Estrutura do Projeto "Robot Web"
