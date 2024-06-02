@@ -16,9 +16,9 @@
   https://robotframework.org
 
 
-|Node.js        |Python       |IDE VSCode			|Robot          |
-|---------------|-------------|---------------|---------------|
-| <img width="93" alt="02_Node_JS" src="https://github.com/moiseschiaretto/Robot_Web/assets/84775466/95a4a252-25b9-46b5-9c85-b91d2ce56f87"> | ![04_Python](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/81636264-f7a0-41cb-b9cd-b1df4e63bb6d) | ![VS_CODE](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/024995d2-70c6-45b6-91b5-015acfee9192) | ![11_Logo_Robot_Frame_Work](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/51b2692f-da0c-45dc-846f-e25056759b29) |
+|Python       |IDE VSCode			|Robot          |
+|-------------|---------------|---------------|
+| ![04_Python](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/81636264-f7a0-41cb-b9cd-b1df4e63bb6d) | <img width="194" alt="PyCharm" src="https://github.com/moiseschiaretto/Robot_Web/assets/84775466/a11b78e8-342a-4c17-b93c-dcb54c50e180"> | ![11_Logo_Robot_Frame_Work](https://github.com/moiseschiaretto/Robot_Web/assets/84775466/51b2692f-da0c-45dc-846f-e25056759b29) |
 <br>
 
 ## Estrutura do Projeto "Robot Web"
